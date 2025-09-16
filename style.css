@@ -1,0 +1,27 @@
+/*Selector{
+	Property: value;
+}*/
+body {
+	background-image: url("Web background.png")
+}
+h2 {
+	font-size: 60px;
+	color: blue;
+	text-align: center;
+	text-decoration: underline;
+}
+h2 + * {
+	font-size: 30px;
+	border: 10px dashed yellow;
+	padding: 0px 150px;
+	margin: 200px 0px;
+}
+footer {
+	text-align: center;
+	border: 3px #502F00 solid;
+}
+span {
+	text-transform: capitalize;
+	color: green;
+	font-size: 2em;
+}

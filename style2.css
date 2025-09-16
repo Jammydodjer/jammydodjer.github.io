@@ -1,0 +1,25 @@
+
+h2 {
+	color: #FF0000;
+	text-align: center;
+	text-decoration: underline;
+}
+
+div {
+	border: 5px solid #00FF00;
+	margin: 5px;
+}
+footer {
+	text-align: right;
+	font-size: 5px;
+	color: rgba(255, 255, 255, 0.9);
+}
+aside {
+	float: right;
+	border: 3px solid cyan;
+	margin: 15px;
+	font-style: italic;
+}
+form {
+	width: 50%;
+}
