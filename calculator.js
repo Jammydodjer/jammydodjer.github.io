@@ -1,5 +1,0 @@
-var a = prompt("First number: ")
-var b =prompt("Second number: ")
-a = Number(a)
-b = Number(b)
-alert(a + b)
