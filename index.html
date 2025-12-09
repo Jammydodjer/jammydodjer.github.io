@@ -1,26 +1,95 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Testing HTML</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		<h2>A Website</h2>
-		<a href="sign in page.html">Register</a>
-		<br>
-		<ol>
-			<li>bannana</li>
-			<hr>
-			<li>apple</li>
-			<ul>
-				<li>green</li>
-				<img src="https://freshpointlocal.co.uk/wp-content/uploads/2018/12/GrannySmith.jpg" alt="Green apple" width=200 height=200>
-				<li>red</li>
-				<img src="https://jooinn.com/images/red-apple-38.jpg" alt="Red apple" width=200 height=200>
-			</ul>
-		</ol>
-		<footer>
-			Courtesy of <span>indiespring</span> and co
-		</footer>
-	</body>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Jamie Topping</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<!-- icon library from font awesome -->
+<script src="https://kit.fontawesome.com/c4f72e3e22.js" crossorigin="anonymous"></script>
+<script>
+  function expandTopnav() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+<body>
+  <!-- dynamic topnav -->
+  <div class="topnav" id="myTopnav">
+    <div class="inner">
+      <!-- menu button will appear when screen is narrow -->
+      <button type="button" onclick="expandTopnav()" class="menu-btn">
+        <div class="icon">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </div>
+        <div class="thin-nav-menu">Menu</div>
+      </button>
+      <!-- topnav links appear at the top or drop down when screen is narrow -->
+      <div class="link-div">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="content-capsule inner">
+      <div class="main-content">
+        <!-- main page content -->
+        <div class="big-title">
+          <a href="index.html" class="big-name squish-title">Jamie Topping</a>
+          <h4 class="small-slogan">Welcome to my portfolio</h4>
+        </div>
+        
+        <div class="content-segment">
+          <div class="segment-header-wrap">
+            <a href="gaming-timeline.html" class="content-thumbnail"><img src="images/generic_keyboard.jpeg" alt="relevant thumbnail"></a>
+            <h2 class="squish-title"><a href="gaming-timeline.html">My Gaming Journey</a></h2>
+          </div>
+          <h3>Dec 2025</h3>
+          <div class="text-segment">
+            <p>Starting from Lego Star Wars: the Complete Saga on the Wii, there are many video games that have left a lasting impression on me. The most recent of which is Hollow Knight, one of the most successful indie games of all time, but there is a long timeline of games that have ensnared my attention and still hold a special place in my heart. Growing up in the 2010s heavily influenced which games I played as a child. For a long time my only console was a Wii, although I recall getting a huddle tablet…</p>
+            <p class="read-more"><a href="gaming-timeline.html">Read more</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- side bar content -->
+      <div class="side-content">
+        <img src="images/BMTH_There_Is_a_Hell.png" alt="BMTH album cover" class="side-image">
+        <h2>About me</h2>
+        <p>I’m an avid programmer, casual gamer and full time nerd. Most of my conversations are dominated by music, video games and Magic the Gathering. </p>
+        <p>After studying Computer Science at A-level I am now searching for a start to a career in programming, be that software, apps or web development. </p>
+        <p>Amongst my other projects, I started this…
+          <br><a href="about.html" class="block-right">Read more</a></p>
+        <h2>Projects</h2>
+        <div class="project-link">
+          <a href="#placeholder"></a>
+        </div>
+      </div>
+  </div>
+  
+  <!-- page footer -->
+  <div class="footer">
+    <div class="inner">
+      <div class="footer-links-external">
+        <a href="https://www.linkedin.com/in/jamie-topping-76b595358">
+          <span class="fa-brands fa-linkedin-in icon"></span>
+        </a>
+        <a href="#">
+          <span class="fa-solid fa-angle-up icon"></span>
+        </a>
+      </div>
+      <div class="footer-foot">
+        © <a href="index.html">Jamie Topping</a> all rights reserved.
+      </div>
+    </div>
+  </div>
+  
+  
+</body>
 </html>
