@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Jamie Topping</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<!-- icon library from font awesome -->
+<script src="https://kit.fontawesome.com/c4f72e3e22.js" crossorigin="anonymous"></script>
+<script>
+  function expandTopnav() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+<body>
+  <!-- dynamic topnav -->
+  <div class="topnav" id="myTopnav">
+    <div class="inner">
+      <!-- menu button will appear when screen is narrow -->
+      <button type="button" onclick="expandTopnav()" class="menu-btn">
+        <div class="icon">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </div>
+        <div class="thin-nav-menu">Menu</div>
+      </button>
+      <!-- topnav links appear at the top or drop down when screen is narrow -->
+      <div class="link-div">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="content-capsule inner">
+      <div class="main-content">
+        <!-- main page content -->
+        <div class="big-title">
+          <a href="index.html" class="big-name squish-title">Jamie Topping</a>
+          <h4 class="small-slogan">Welcome to my portfolio</h4>
+        </div>
+        
+        <div class="content-segment">
+          <div class="segment-header-wrap">
+            <span class="content-thumbnail"><img src="images/generic_keyboard.jpeg" alt="relevant thumbnail"></span>
+            <h2 class="squish-title">About me</h2>
+          </div>
+          <div class="text-segment">
+<!-- about me page content -->
+<h4>Who I am.</h4>
+<p>My name is Jamie Topping and I am an avid programmer, casual gamer and full time nerd.</p>
+<p>I recently completed my A-levels and am currently occupying myself with building and developing my skills in both life and programming. </p>
+<p>I have Narcolepsy Type 1, a disability characterised by uncontrollable excessive daytime sleepiness. Getting this diagnosed and medicated at a young age has been life-changing, allowing me to excel at school and maintain a social life.</p>
+<h4>Where I am from.</h4>
+<p>As a young child, I moved several times but settled at the place of my birth, Manchester.</p>
+<p>Manchester is more than just a home to me. It is a city I admire with a history I am proud of. </p>
+<h4>What do I like </h4>
+<p>My interests are driven by great passion and tend to occupy a large proportion of my thoughts and conversations.</p>
+<p>Magic the Gathering - A complex trading card game steeped in history, art and other IPs. I started playing Magic the Gathering shortly after the Core 20 set and have played with varying frequency since. An adamant commander player, my favourite parts of the game involve overly complex interactions and I enjoy nothing more than unexpected interactions between rules.</p>
+<p>Warhammer 40,000 - A tabletop game where building and painting your army of miniatures takes even longer than the 4 hour games that follow. Starting with a birthday gift from a cousin, I was introduced to the endless universe of the 41st millennium. I have great pride in my army of necrons, although I will never be done painting them as there is always an improvement to be made. Within this hobby, I most enjoy exploring the fathomless depths of lore and spending countless hours painting my models. I also based my A-level Computer Science project on the tabletop game, which lead to a long rabbit hole learning the rules in great detail. </p>
+<p>Music - Alternative music of a range of genres form the soundtrack to my life. There is always something on the speaker or on my headphones and I always have another gig lined up. My favourite band is tied between Bring Me the Horizon and Muse, both bands who have played a great role in forming my music taste and have made genre defining innovations. Every time I discover a new alternative genre, I love it and it ends up being added to my list of regularly frequented genres. Currently I love almost anything metal, punk, electronic and any sub-genre fusing them in any way. </p>
+<p>Video Games - My gaming catalogue consists mainly of single player games with deep lore or complex mechanics. Hollow Knight and Undertale hold a special place in my heart as indie games that truly mastered the craft of video games as the medium of storytelling. The unique combination of artwork, music and programming required to build video games of this caliber captured my interest, and I plan on exploring these elements in future personal projects. </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- side bar content -->
+      <div class="side-content">
+        <img src="images/BMTH_There_Is_a_Hell.png" alt="BMTH album cover" class="side-image">
+        <h2>Bring Me the Horizon</h2>
+        <p>I’m an avid programmer, casual gamer and full time nerd. Most of my conversations are dominated by music, video games and Magic the Gathering. </p>
+        <p>After studying Computer Science at A-level I am now searching for a start to a career in programming, be that software, apps or web development. </p>
+        <p>Amongst my other projects, I started this…
+          <br><a href="/about" class="block-right">Read more</a></p>
+        <h2>Other Albums</h2>
+        <div class="project-link">
+          <a href="#placeholder"></a>
+        </div>
+      </div>
+  </div>
+  
+  <!-- page footer -->
+  <div class="footer">
+    <div class="inner">
+      <div class="footer-links-external">
+        <a href="https://www.linkedin.com/in/jamie-topping-76b595358">
+          <span class="fa-brands fa-linkedin-in icon"></span>
+        </a>
+        <a href="#">
+          <span class="fa-solid fa-angle-up icon"></span>
+        </a>
+      </div>
+      <div class="footer-foot">
+        © <a href="index.html">Jamie Topping</a> all rights reserved.
+      </div>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
